@@ -13,9 +13,9 @@ jobs:
       uses: actions/cache@v1
       with:
         path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements/local.txt') }}
         restore-keys: |
-          ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          ${{ runner.os }}-pip-${{ hashFiles('requirements/local.txt') }}
     - name: Set up Python 3.8
       uses: actions/setup-python@v1
       with:
