@@ -22,3 +22,15 @@ $ pip install -U pip setuptools wheel
 $ pip install -r requirements/local.txt
 $ python manage.py migrate
 ```
+
+## requirementsファイルの用途
+
+- `requirements.txt`
+  - デプロイ用
+  - `requirements/production.txt`を参照している
+- `requirements/production.txt`
+  - 本番環境でしか使わないライブラリはここに書く
+- `requirements/local.txt`
+  - 開発環境でしか使わないライブラリはここに書く
+- `requirements/base.txt`
+  - 全環境で共通のライブラリはここに書く
