@@ -8,7 +8,7 @@
 
 - Python 3.7または3.8
 - エディタまたはIDE
-- Git（Gitの使い方が分からない人[SourceTree](https://www.sourcetreeapp.com/)がオススメ）
+- Git（Gitの使い方が分からない人は[SourceTree](https://www.sourcetreeapp.com/)がオススメ）
 
 
 ## 開発環境構築方法
