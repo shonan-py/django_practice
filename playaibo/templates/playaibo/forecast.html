@@ -1,0 +1,44 @@
+{% extends "playaibo/base.html" %}
+
+{% block title %}Playaibo Exercise{% endblock title %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+    <div class="card">
+      <div class="card-header">Target</div>
+      <div class="card-body">
+        <form action="{% url 'forecast' %}" method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
+          <div class="form-group row">
+            <label for="model" class="col-sm-1 col-form-label">City</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control sbc_field" name="city" placeholder="Tokyo,jp"/>
+            </div>
+            <button type="submit" class="btn btn-primary" name='action' value="save">問い合わせ</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+    <div class="card">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="card">
+            <div>
+              <h2>{{ city }} の天気</h2>
+            <p>{{ result|linebreaksbr  }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
