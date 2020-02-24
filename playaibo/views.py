@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.generic import View
 import requests
 
-API_Key = 'XXXXXXXXXXXXXXXXXXXX'
+API_KEY = 'XXXXXXXXXXXXXXXXXXXX'
 BASE_URL = 'https://api.openweathermap.org/data/2.5/forecast'
 
 
