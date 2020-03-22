@@ -21,6 +21,7 @@ $ source .venv/bin/activate
 $ pip install -U pip setuptools wheel
 $ pip install -r requirements/local.txt
 $ python manage.py migrate
+$ python manage.py runserver
 ```
 
 ## requirementsファイルの用途
