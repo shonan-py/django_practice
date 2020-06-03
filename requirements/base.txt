@@ -1,4 +1,4 @@
-Django==2.2.12  # pyup: < 3.0  # https://www.djangoproject.com/
+Django==2.2.13  # pyup: < 3.0  # https://www.djangoproject.com/
 pytz==2020.1
 requests==2.23.0
 sqlparse==0.3.1
