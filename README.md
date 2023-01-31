@@ -1,12 +1,10 @@
 # django_practice
 
 ![](https://github.com/shonan-py/django_practice/workflows/test/badge.svg)
-[![Updates](https://pyup.io/repos/github/shonan-py/django_practice/shield.svg)](https://pyup.io/repos/github/shonan-py/django_practice/)
-[![Python 3](https://pyup.io/repos/github/shonan-py/django_practice/python-3-shield.svg)](https://pyup.io/repos/github/shonan-py/django_practice/)
 
 ## 必要な環境
 
-- Python 3.7または3.8
+- Python 3.8、3.9、3.10のいずれか
 - エディタまたはIDE
 - Git（Gitの使い方が分からない人は[SourceTree](https://www.sourcetreeapp.com/)がオススメ）
 

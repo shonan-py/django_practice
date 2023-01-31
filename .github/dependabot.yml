@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: "weekly"
+    day: "saturday"
+    time: "08:00"
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 10
+  target-branch: master
+  reviewers:
+  - ryu22e
+  assignees:
+  - ryu22e
+  ignore:
+    - dependency-name: "Django"
+      versions: ">=4.0"
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+    day: "saturday"
+    time: "08:00"
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 10
+  reviewers:
+  - ryu22e
+  assignees:
+  - ryu22e
