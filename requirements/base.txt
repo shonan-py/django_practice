@@ -1,5 +1,5 @@
 asgiref==3.9.1
 Django==4.2.22
 pytz==2025.2
-requests==2.32.4
+requests==2.32.5
 sqlparse==0.5.3
