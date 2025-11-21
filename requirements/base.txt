@@ -1,4 +1,4 @@
-asgiref==3.10.0
+asgiref==3.11.0
 Django==4.2.26
 pytz==2025.2
 requests==2.32.5
