@@ -15,7 +15,7 @@ updates:
   - ryu22e
   ignore:
     - dependency-name: "Django"
-      versions: ">=4.0"
+      versions: ">=5.0"
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:
