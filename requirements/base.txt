@@ -1,5 +1,5 @@
 asgiref==3.11.1
 Django==5.2.12
-pytz==2025.2
+pytz==2026.1.post1
 requests==2.32.5
 sqlparse==0.5.5
