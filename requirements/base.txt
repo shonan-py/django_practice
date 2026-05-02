@@ -1,4 +1,4 @@
 asgiref==3.11.1
 Django==5.2.13
-requests==2.33.0
+requests==2.33.1
 sqlparse==0.5.5
